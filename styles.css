@@ -1,0 +1,236 @@
+html {
+  background-color: #f0f7ee;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a {
+  color: #c4d7f2;
+  font-size: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.description-text {
+  margin: 26px;
+  font-size: 20px;
+  text-align: left; /* Align text to the left */
+  color: black;
+  padding: 20px; /* Reduced padding to align text better */
+}
+
+.author-image {
+  width: 407px;
+  height: 587px;
+}
+
+.text-short {
+  max-height: 67px; /* Adjust this to the collapsed height */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.text-long {
+  display: none; /* Hide initially */
+  transition: display 0.3s ease;
+}
+
+.text-expanded {
+  display: block; /* When expanded, show the text */
+}
+
+.read-more-btn {
+  display: block;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.read-more-btn:hover {
+  background-color: #45a049;
+}
+
+.read-more-btn-book-link {
+  display: block;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.read-more-btn-book-link:hover {
+  background-color: #45a049;
+}
+
+.author-info {
+  margin: 50px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+}
+
+.book-image {
+  width: 400px;
+  height: auto;
+}
+.book-image img {
+  width: 400px;
+  height: auto;
+}
+
+.content-pocetna {
+  padding: 20px;
+}
+
+.cover-image img {
+  width: 400px;
+}
+
+.line-break {
+  height: 5px;
+  width: 100%;
+  color: pink;
+}
+
+.line-splitter {
+  border: 0;
+  height: 30px;
+  background: #c4d7f2;
+  margin: 20px 0;
+}
+
+.author-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.cover-image {
+  margin-right: 20px;
+}
+
+.order-button {
+  border-radius: 30px;
+}
+.order-button {
+  height: 150px;
+  width: 300px;
+  background-color: #c4d7f2;
+  margin: 0 auto;
+  position: relative;
+}
+
+.book-section {
+  display: grid;
+  grid-template-areas: "book-image text";
+  grid-template-columns: 1fr 2fr;
+}
+
+.charity-image {
+  width: 165px;
+  margin-left: 100px;
+}
+
+.charity {
+  display: flex;
+}
+
+.email img {
+  width: 50px;
+}
+
+.instagram img {
+  width: 50px;
+}
+
+.book-link {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  position: inherit;
+  top: 50px;
+  font-size: xx-large;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  flex-wrap: nowrap;
+}
+
+.contact {
+  display: flex;
+  font-size: 15px;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  flex-wrap: nowrap;
+}
+
+.email-text {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.instagram-text {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.instagram {
+  margin-bottom: 10px;
+}
+
+.upload-box {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.first-name-box {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.last-name-box {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.email-box {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+
+.phone-box {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
