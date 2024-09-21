@@ -7,8 +7,8 @@
     <title>Knjige</title>
   </head>
   <body>
-    <div style="position: relative; right: 240px; top: 40px">
-      <button class="returnButton" onclick="window.location.href='index.html'">
+    <div class="returnButton">
+      <button onclick="window.location.href='index.html'">
         Vratite se na pocetnu stranu
       </button>
     </div>
@@ -60,3 +60,31 @@
     </section>
   </body>
 </html>
+<style>
+  .returnButton {
+    position: relative;
+    right: 240px;
+    top: 40px;
+  }
+
+  @media (max-width: 500px) {
+    body {
+      margin: 0;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0;
+    }
+    .content {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .returnButton {
+      position: relative;
+      float: right;
+      margin-bottom: 30px;
+      right: 0px;
+      top: 0px;
+    }
+  }
+</style>
