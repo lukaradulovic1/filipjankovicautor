@@ -49,6 +49,11 @@ a {
   bottom: 20px;
 }
 
+.description-text-book > .text-long {
+  position: relative;
+  bottom: 40px;
+}
+
 .author-image {
   width: 407px;
   height: 587px;
@@ -60,6 +65,16 @@ a {
   bottom: 39px;
 }
 
+.author-section > .description-text > .read-more-btn {
+  bottom: 25px;
+  position: relative;
+}
+
+.author-section > .description-text > .text-long {
+  bottom: 25px;
+  position: relative;
+}
+
 .charity > .charity-text > .text-short {
   margin-left: 180px;
   max-height: 150px;
@@ -67,12 +82,9 @@ a {
 }
 
 .charity > .charity-text > .text-long {
-  display: block;
-  max-height: 150px;
-  position: relative;
   left: 80px;
-  margin-bottom: 192px;
-  width: 80%;
+  width: 86%;
+  position: relative;
 }
 
 .charity > .read-more-btn {
