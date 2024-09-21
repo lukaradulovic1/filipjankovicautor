@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Expand the text
       textShort.style.maxHeight = textShort.scrollHeight + "px";
       textFull.style.display = "block";
-      readMoreBtn.textContent = "Procitajte manje";
+      readMoreBtn.textContent = "Umanji";
     }
   }
 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Expand the text
       textShort.style.maxHeight = textShort.scrollHeight + "px";
       textFull.style.display = "block";
-      readMoreBtn.textContent = "Procitajte manje";
+      readMoreBtn.textContent = "Umanji";
     }
   }
 
