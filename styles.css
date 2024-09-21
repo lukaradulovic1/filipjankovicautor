@@ -45,20 +45,34 @@ a {
   padding: 20px;
 }
 
+.description-text-book > .text-short {
+  bottom: 20px;
+}
+
 .author-image {
   width: 407px;
   height: 587px;
 }
 
 .text-short {
-  max-height: 67px; /* Adjust this to the collapsed height */
-  overflow: hidden;
-  transition: max-height 0.3s ease;
+  max-height: 150px;
+  position: relative;
+  bottom: 39px;
 }
 
-.charity > .text-short {
+.charity > .charity-text > .text-short {
   margin-left: 180px;
   max-height: 150px;
+  bottom: 20px;
+}
+
+.charity > .charity-text > .text-long {
+  display: block;
+  max-height: 150px;
+  position: relative;
+  left: 80px;
+  margin-bottom: 192px;
+  width: 80%;
 }
 
 .charity > .read-more-btn {
@@ -87,7 +101,7 @@ a {
 }
 
 .read-more-btn:hover {
-  background-color: gray;
+  background-color: black;
 }
 
 .read-more-btn-book-link {
@@ -103,7 +117,7 @@ a {
 }
 
 .read-more-btn-book-link:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 .author-info {
@@ -116,10 +130,19 @@ a {
 }
 
 .book-image {
-  width: 400px;
   height: auto;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
+
+.charity > .charity-text > .text-short {
+  margin-left: 80px;
+}
+
+.charity-text > .read-more-btn {
+  margin-left: 80px;
+}
+
 .book-image img {
   width: auto;
   height: 452px;
@@ -174,8 +197,9 @@ a {
 }
 
 .charity-image {
+  margin-right: 40px;
   width: 165px;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .charity {
@@ -216,6 +240,8 @@ a {
   flex-direction: row;
   margin-bottom: 10px;
   flex-wrap: nowrap;
+  margin-bottom: 10px;
+  margin-left: 107px;
 }
 
 .email-text {
