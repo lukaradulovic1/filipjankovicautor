@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
       textShort.style.maxHeight = textShort.scrollHeight + "px";
       textFull.style.display = "block";
 
-      readMoreBtn.textContent = "Procitajte manje";
+      readMoreBtn.textContent = "Umanji";
     }
   });
 });

@@ -1,6 +1,24 @@
+body {
+  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
 html {
-  background-color: #f0f7ee;
+  /*background-color: #f0f7ee;*/
   font-size: 20px;
+}
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 100px;
 }
 
 li {
@@ -21,11 +39,10 @@ a {
 }
 
 .description-text {
-  margin: 26px;
   font-size: 20px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   color: black;
-  padding: 20px; /* Reduced padding to align text better */
+  padding: 20px;
 }
 
 .author-image {
@@ -37,6 +54,15 @@ a {
   max-height: 67px; /* Adjust this to the collapsed height */
   overflow: hidden;
   transition: max-height 0.3s ease;
+}
+
+.charity > .text-short {
+  margin-left: 180px;
+  max-height: 150px;
+}
+
+.charity > .read-more-btn {
+  margin-left: 180px;
 }
 
 .text-long {
@@ -51,7 +77,7 @@ a {
 .read-more-btn {
   display: block;
   margin-top: 10px;
-  background-color: #4caf50;
+  background-color: gray;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -61,13 +87,13 @@ a {
 }
 
 .read-more-btn:hover {
-  background-color: #45a049;
+  background-color: gray;
 }
 
 .read-more-btn-book-link {
   display: block;
   margin-top: 10px;
-  background-color: #4caf50;
+  background-color: gray;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -92,10 +118,11 @@ a {
 .book-image {
   width: 400px;
   height: auto;
+  margin: 20px;
 }
 .book-image img {
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 452px;
 }
 
 .content-pocetna {
@@ -103,7 +130,7 @@ a {
 }
 
 .cover-image img {
-  width: 400px;
+  width: 300px;
 }
 
 .line-break {
@@ -114,8 +141,8 @@ a {
 
 .line-splitter {
   border: 0;
-  height: 30px;
-  background: #c4d7f2;
+  height: 3px;
+  background: gray;
   margin: 20px 0;
 }
 
@@ -135,7 +162,7 @@ a {
 .order-button {
   height: 150px;
   width: 300px;
-  background-color: #c4d7f2;
+  background-color: grey;
   margin: 0 auto;
   position: relative;
 }
