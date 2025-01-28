@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (required for modal functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="book"
+        style="background-color: #272b2e; display: flex; flex-direction: row; justify-content: center; align-items: center;">
+        <img src="assets/izmedjusvetova.jpg" alt style="width: 25%; margin-left: 100px; padding: 20px;">
+        <div class="description" style="    display: flex
+        ;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: flex-start;
+        ">
+            <p style="color: wheat;    font-size: x-large;
+            font-family: 'ROBOTO';"> Uronite u dublje sfere postojanja kroz moćne razgovore sa voljenima koji
+                nastavljaju da žive u našim srcima...
+            </p>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Na rubu stvarnosti, ili bar onoga što tako nazivamo, između ovog sveta i
+                            onog koji dolazi posle, leži tajanstveni prostor gde se susreću duše
+                            koje su prešle granicu smrti. U ovoj knjizi otvaramo vrata tom
+                            nevidljivom svetu i pozivamo vas da zajedno sa nama istražite dubine
+                            duše i nepregledne horizonte onoga što dolazi. Kroz reči koje će dopreti
+                            do vašeg srca, otkrićete da je komunikacija s dušama umrlih moguća, da
+                            ljubav i sećanja prelaze granice vremena i prostora, i da su duše naših
+                            voljenih uvek s nama, nevidljivi saputnici na vašem putovanju kroz
+                            život. <br /><br />Ova knjiga nije samo putovanje u nepoznato, već i
+                            podsetnik na večnu povezanost koja nas sve obuhvata u celinu.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Detaljnije o knjizi
+            </button>
+
+        </div>
+    </div>
+    <div class="author" style="background-color: #cbbba2;
+        height: 582px;
+        display: flex
+    ;
+        padding-top: 30px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center; padding: 20px;">
+        <img src="assets/profile-image.jpg" style="width: 100px; height: 100px; border-radius: 50px; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); margin-bottom: 100px;">
+        <p style="color: #272b2e;    font-size: x-large;
+            font-family: 'ROBOTO';">Filip Janković je mladi pisac čije je prvo delo odmah privuklo pažnju
+            zbog svoje autentičnosti i dubine. Njegova knjiga, koja je u velikoj
+            meri autobiografska, nije samo književni rad, već i manifest njegovog
+            ličnog putovanja. Janković je pisao o temama koje su mu bile bliske,
+            koristeći svoja iskustva i učenja koja je stekao kroz godine
+            istraživanja i introspekcije.</p>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Svaka stranica njegove knjige odražava
+                        trud i predanost koju je uložio u primenu tih principa u svom
+                        svakodnevnom životu. Njegov pristup pisanju može se opisati kao
+                        "životna praksa" — sve ono što je delio sa čitaocima nije bilo samo
+                        teorijsko, već duboko ukorenjeno u njegovom svakodnevnom ponašanju i
+                        odlučivanju. Janković je uspeo da transformiše svoje lične izazove i
+                        uvide u univerzalne lekcije, pružajući tako svojim čitaocima ne samo
+                        priču, već i vodič za lični razvoj. Ovaj metod ne samo da oslikava
+                        njegovu posvećenost pisanoj reči, već i njegovu sposobnost da se
+                        istinski poveže sa temama o kojima piše.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Detaljnije o autoru
+        </button>
+    </div>
+    <div class="charity" style="text-align: center;
+    background-color: #272b2e;
+    height: 582px;
+    padding: 20px;
+    display: flex
+;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+">
+        <h1 style="color: wheat; text-align: center;">Humanitarni cilj</h1>
+        <p style="color: wheat;    font-size: x-large;
+        font-family: 'ROBOTO';">Centar Zvezda u Beogradu, osnovan 2013. godine, pomaže deci i mladima bez roditeljskog
+            staranja kroz program "Kuća mogućnosti", fokusirajući se na osamostaljenje putem smeštaja, edukacije,
+            zapošljavanja i socijalne integracije. Deo svojih programa finansiraju prodajom rukotvorina, a kroz
+            radionice mladima pružaju priliku da steknu radne veštine. Njihov cilj je da mladima omoguće siguran početak
+            samostalnog života i podršku u pronalaženju stabilnog zaposlenja.
+        </p>
+        <button type="button" class="btn btn-secondary btn-lg mt-2" style="margin: 0 auto;">
+            <a href="www.google.com">
+                Posetite njihovu stranicu
+            </a>
+        </button>
+    </div>
+
+
+
+</body>
+
+</html>
